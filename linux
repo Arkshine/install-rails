@@ -102,7 +102,7 @@ EOF
 
 log_info "Installing ImageMagick ..."
   sudo -E apt-get -y install libtool
-  wget https://github.com/Arkshine/discourse_docker/blob/552298c3d0c40270a52a9d49d4c19012ad793784/image/base/install-imagemagick
+  wget https://raw.githubusercontent.com/Arkshine/discourse_docker/552298c3d0c40270a52a9d49d4c19012ad793784/image/base/install-imagemagick
   chmod +x install-imagemagick
   sudo -E ./install-imagemagick
 
